@@ -1,4 +1,0 @@
-{
-  "test_nim.py::test_computador_jogada_n_igual_m": true,
-  "test_nim.py::test_computador_jogada_n_multiplo_n": true
-}

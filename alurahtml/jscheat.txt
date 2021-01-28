@@ -1,7 +1,0 @@
-
-Fontes do Google para usar.  Ao escolher a fonte ele fornece link ref para colocar o header do html e tb o código da familia no CSS
-https://fonts.google.com
-
-
-Para verificar processamento de requisições de post e get no debug do navegador, ir na aba network.
-Para executar blocos de código em tempo de execução ir na aba console e usar Shift enter após as linhas. Enter para executar. 
