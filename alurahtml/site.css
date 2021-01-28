@@ -1,0 +1,300 @@
+
+
+/* Quando definimos 2 elementos fora da chave sem virgula é uma hierarquia*/
+
+main h1 {
+    background-color: #851944;
+
+    /* color pode ser em red, green blue ou hexa */
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    /* Padding é distância das bordas da marcação */
+    padding: 25px;
+
+    /* Margin é a margem da marcação das bordas da página */
+    margin: 0px;
+
+    /* border sempre precisa de 3 parametros: tambanho, tipo e cor */
+    border: 10px solid #000;
+    font-size: 60px;
+    
+    /* transforma o texto em maiusculas sem perder usabilidade para deficientes visuais */
+    /* Se colocar em maiusculas no próprio html leitores de voz não conseguem interpretar */
+    text-transform: uppercase;
+}
+
+
+
+
+main a {
+    color: #851944;
+}
+
+/* marcações separadas por vírgula quer cada uma tem a mesma propriedade */
+h1,
+h2 {
+
+    /* Em font-family sans-serif quer dizer sem serifa. O oposto é serif. Não usa aspas */
+    font-family: "Open Sans Condensed", sans-serif;
+   
+}
+
+h2{
+    font-size: 30px;
+    clear:both; 
+}
+
+
+
+body {
+    background-color: #f2fffc;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 120%;
+
+    /* distancia entre as linhas ou espaçamento entre linhas */
+    line-height: 1.5;
+}
+
+
+
+
+p {
+    text-align: justify;
+    font-family: "Crimson Text", serif, "Times New Roman", "Baskerville", serif;
+
+    /* margin com 2 parametros:  embaixo/emcima  e   esquerdo/direito */
+    margin: 20px 0;
+}
+
+blockquote{
+    background-color: #D9E5E3;
+
+    /* border aceita parametros para cada borda  */
+    border: 10px solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+
+    /* width Largura que a marcação ocupara na pagina  */
+    /* margin ajuda controlar posicionamento do width  */
+    /* padding ajudar a controlar distancia do texto da borca do bloco */
+    width: 250px;
+    margin: 20px 40px;
+    padding: 20px;
+    text-align: left;
+    /* borderbox define que o tamanho total da marcação c/ margin,width,border e padding */
+    box-sizing: border-box;
+    
+   }
+
+   blockquote p{
+       text-align: left;
+   }
+
+
+
+.fiat{
+    float:right;
+}
+
+.petro{
+    float:left;
+}
+
+
+   /* outro exemplo de uso de class */
+   /* class torna o css mais logico e */
+.navegacao-site{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 9px;
+    text-align: center;
+    
+
+}
+
+
+.navegacao-site2{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 49px;
+    text-align: center;
+    float:left;
+    box-sizing: border-box;
+
+}
+
+
+aside a{
+
+    /* inherit diz que marcação herda propriedade definida em nivel mais alto */
+    color: inherit;
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.titulo-navegacao{
+    text-transform: uppercase;
+}
+
+
+/* caracter # significa Id de uma tag nomeada com um ID */
+/* caracter . significa uma tag que é uma class no html (categoria) */
+/* A tag com ID só pode ser usada uma vez no html pois ID é único  */
+/* A tag com class pode ser reutilizada várias vezes no mesmo arquivo */
+/* É possível realizar herança e criar subclasses no html e fazer o mesmo no CSS */
+/* A subclasse herda propriedades da superclasse e implementa seu proprio comportamento */
+.icones-sociais li{       /* #icones-sociais li { */
+    display: inline-block;
+   
+}
+.icones-sociais a{       /* #icones-sociais li { */
+   
+    /* Este tamanho é para imagens (icones) definidas nas classes de redes sociais abaixo */
+    width: 40px;
+    height: 40px;
+    /* display block permite mostrar elementos em linha */
+    display: block;
+    
+    /* text-ident negativo, vai jogar o texto dos links para fora da tela */
+    text-indent: -999999px;
+}
+
+
+
+/* As tres classes abaixo e a classe acima referem-se à técnica image-replacement
+Essa técnica é interessante para imagens secundárias, pois elas não serão indexadas
+pelos mecanismos de busca. As imagens mais importantes devem ficar no HTML. */
+.github{
+    /* insere imagem como img de fundo na pagina. Muito útil para deixar 
+    o texto nos links. O texto nos links é bom pois aumenta a semantica da 
+    página e sua usabilidade . */
+    background-image: url(github.png);
+
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+
+
+footer {
+    color: #F2FFFC;
+    background-color: #000000;
+    font-size: 80%;
+    padding: 20px;
+}
+
+
+footer a{
+    color: #F2FFFC;
+}
+
+
+
+/* Exemplo de uso de heranca de classe Esta é superclasse */
+.conteudo-principal{
+
+    width: 720px;
+    /* margin auto ajusta largura do bloco conforme display ddo usuario */
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+/* Exemplo de uso de herança de classe. Esta é a subclasse. Vide html. */
+.conteudo-principal-navegacao-ajuste {
+   padding: 30px 0;
+   width:250px;
+}
+
+.conteudo-principal-navegacao-ajuste2 {
+    padding: 30px 0;
+    width:720px;
+ }
+
+/* corrige resets definindo marcação strong como bold */
+strong{
+    font-weight: bold; 
+}
+
+/* corrige resets definindo marcação em como italico */
+em{
+    font-style: italic;
+}
+
+.footer-tags{
+    background-color: #f2fffc;
+    color: #000;
+    padding: 20px;
+    
+}
+
+.footer-tags a{
+   
+    color: #851944;
+} 
+
+/* tag do blog tem um padding de 30 distanciando de uma borda inferior */
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+main{
+    
+    float:left;
+    width:80%
+}
+
+img, .navegacao-site{
+   
+    float:right;
+    clear:right;
+    
+}
+
+.foto{
+    /* position absolute é relativo a janela do navegador */
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+aside {
+    box-sizing: border-box;
+    position: relative;
+    top: 300px; 
+}
+
+.clearfix{
+    clear:both;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}

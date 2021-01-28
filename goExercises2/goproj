@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Golang project setup"
+echo
+echo "Give a name to your project: "
+echo
+read project
+mkdir $project 
+cd $project
+touch $project.go
+touch $project.mod
+ls
+echo
+echo "Golang project created."

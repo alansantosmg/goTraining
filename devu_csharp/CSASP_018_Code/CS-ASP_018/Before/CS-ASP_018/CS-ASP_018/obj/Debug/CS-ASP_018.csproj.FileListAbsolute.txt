@@ -1,0 +1,13 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.pdb
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.dll.config
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.dll
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\bin\CS-ASP_018.pdb
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.csprojAssemblyReference.cache
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.csproj.CoreCompileInputs.cache
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.dll
+C:\Users\alans\source\repos\CSASP_018_Code\CS-ASP_018\Before\CS-ASP_018\CS-ASP_018\obj\Debug\CS-ASP_018.pdb

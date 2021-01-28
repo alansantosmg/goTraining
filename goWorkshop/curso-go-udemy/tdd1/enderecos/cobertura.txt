@@ -1,0 +1,7 @@
+mode: set
+tdd1/enderecos/enderecos.go:6.45,13.36 5 1
+tdd1/enderecos/enderecos.go:20.2,20.29 1 1
+tdd1/enderecos/enderecos.go:23.2,23.25 1 0
+tdd1/enderecos/enderecos.go:13.36,15.40 1 1
+tdd1/enderecos/enderecos.go:15.40,17.4 1 1
+tdd1/enderecos/enderecos.go:20.29,22.3 1 1

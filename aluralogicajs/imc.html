@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript</title>
+   
+<script>
+
+function pulalinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
+
+function mostra(frase){
+    document.write(frase);
+    pulalinha();
+}
+
+function calculaImc(peso,altura){
+   
+       return peso / (altura *  altura); 
+       
+      
+ }
+ 
+var pesoAlan = 73;
+var alturaAlan = 1.71; 
+
+var imcAlan = calculaImc(pesoAlan, alturaAlan);
+mostra(" O imc calculado é " + imcAlan);  
+
+var pesoHenrique = 45;
+var alturaHenrique = 1.40; 
+
+var imcHenrique = calculaImc(pesoHenrique, alturaHenrique); 
+mostra(" O imc calculado é " + imcHenrique); 
+
+
+
+mostra("A soma dos imcs é " + imcAlan + imcHenrique); 
+
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

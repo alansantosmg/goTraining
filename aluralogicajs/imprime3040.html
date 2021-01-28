@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript</title>
+   
+<script>
+
+
+
+function pulalinha() {
+    document.write("<br>");
+    document.write("<br>");
+}
+
+
+
+function mostra(frase){
+    document.write(frase);
+    pulalinha();
+}
+
+
+
+function calculaNumero(contador) {
+    while(contador >= 29 &&  contador <= 39) {
+        contador = contador +1; 
+        if ((contador == 33) || (contador == 34) ){
+            
+
+        }
+        else{mostra(contador);}
+    }
+}
+
+var contador = 29; 
+
+calculaNumero(contador);
+mostra("fim");
+</script>
+
+
+
+</head>
+
+<body>
+</body>
+
+
+</html>
