@@ -10,7 +10,7 @@ type cachorro struct {
 	Name     string `json:"name:"`
 	Pedigree string `json:"pedigree"`
 	Age      uint   `json:"age"`
-}:
+}
 
 func main() {
 
